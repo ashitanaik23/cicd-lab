@@ -1,0 +1,9 @@
+{
+  "name": "cicd-lab",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "test:ci": "node --test --test-reporter=junit --test-reporter-destination=junit.xml"
+  }
+}
